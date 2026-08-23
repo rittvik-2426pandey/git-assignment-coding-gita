@@ -13,6 +13,8 @@
 4. Write 3 benefits of using a VCS in a college project or team project.
 
 **Submission:** Written answers 
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/ef3320c0-53c8-4789-8398-d8ab4623739d" />
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/511b98d7-4f85-4ada-ba16-f0b0cb73b2a1" />
 
 ---
 
@@ -30,6 +32,9 @@
 4. Which type is Git? Justify your answer in 3–4 lines.
 
 **Submission:** Diagrams + written explanation
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/6494384f-ded1-470a-b9da-4b27b87037d8" />
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/7b229b0c-76a3-4e0a-a6cb-cef0964f233c" />
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/a70272a9-4ff6-47a5-b0ff-d0e9cbc9a70d" />
 
 ---
 
@@ -54,6 +59,8 @@
    - What is the biggest disadvantage of Centralized VCS?
 
 **Submission:** Completed table + answers
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/a1a7a55c-7d25-42d1-831e-a2a888495a87" />
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/40d414d8-f75c-45b1-9e7f-f073cec3e1bc" />
 
 ---
 
@@ -71,6 +78,8 @@
 4. Name any 3 platforms that work with Git (example: GitHub).
 
 **Submission:** Written answers
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/52117a2e-e81b-4089-bd90-6dadb2631374" />
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/fd28ef5c-c898-441d-9056-e9557931ef6a" />
 
 ---
 
