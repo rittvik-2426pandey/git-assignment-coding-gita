@@ -79,6 +79,8 @@
 **Submission:** Screenshots + written answers
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/d39c95a7-2d0b-4c21-ab7e-3bbc8f55f2d8" />
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/29218f14-02a7-4bab-a876-6ca52e91c15c" />
+<img width="1880" height="957" alt="image" src="https://github.com/user-attachments/assets/4486dcd6-cc79-46af-92a0-70c652d94646" />
+<img width="1841" height="955" alt="image" src="https://github.com/user-attachments/assets/eafaafbc-f830-4a66-a94c-98f51e8f64df" />
 
 ---
 
