@@ -11,12 +11,7 @@
 **Submission:** Written answers
 
 **Ans**
-
-<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/88130103-7475-4dc6-9820-71295bc346d6" />
-
-
-
-<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/3072f3db-2f98-403e-8c8d-392134400012" />
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/0e07023c-5cbd-4a23-84ee-0455c83d401a" />
 
 
 ---
@@ -36,7 +31,9 @@
 
 **Ans**
 
-<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/ac78fd3d-b27c-4816-bcec-8c1e0d561e4a" />
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/0159d4d1-f379-43d9-b61b-c0abd2d24381" />
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/3f64d3cc-c411-4ba2-95a3-441e994e8b86" />
+
 
 ---
 
@@ -58,6 +55,7 @@
 **Submission:** Screenshots + written answers
 
 **Ans**
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/ade91ac8-fdfb-4b58-9ca6-ac4e5321e24b" />
 
 ---
 
@@ -79,6 +77,8 @@
    - Your GitHub profile (showing the contribution calendar)
 
 **Submission:** Screenshots + written answers
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/d39c95a7-2d0b-4c21-ab7e-3bbc8f55f2d8" />
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/29218f14-02a7-4bab-a876-6ca52e91c15c" />
 
 ---
 
@@ -101,5 +101,7 @@
 3. Write **4 key takeaways** from Day 2.
 
 **Submission:** Written answers
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/a622b106-9f22-4e65-bc84-6482b3fe0fd5" />
+![Uploading image.png…]()
 
 ---
