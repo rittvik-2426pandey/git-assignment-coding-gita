@@ -40,6 +40,7 @@
 
 **Submission:** Written answers
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/211db804-861f-4f6e-b08a-2126536a6893" />
+<img width="1856" height="947" alt="image" src="https://github.com/user-attachments/assets/e22e5ff3-19cd-4514-89c6-11311cd1299b" />
 
 ---
 
@@ -67,7 +68,11 @@
 - Screenshot of `git log --oneline`  
 - Screenshot of successful push  
 - Screenshot of the file on GitHub
-<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/86defcd2-0d95-4602-9c82-f44a4bb7b645" />
+<img width="1283" height="752" alt="image" src="https://github.com/user-attachments/assets/906e9fa2-dc75-4fb3-a835-1ffe8caed8d4" />
+<img width="765" height="131" alt="image" src="https://github.com/user-attachments/assets/32f4b900-63b9-4a4e-8818-0be6823277ba" />
+<img width="664" height="598" alt="image" src="https://github.com/user-attachments/assets/fb597ec7-69d4-4f30-a709-dc4d1e030484" />
+<img width="1856" height="947" alt="image" src="https://github.com/user-attachments/assets/8c9db5e1-f52d-498c-8fd3-d24bfe049cb4" />
+
 
 ---
 
