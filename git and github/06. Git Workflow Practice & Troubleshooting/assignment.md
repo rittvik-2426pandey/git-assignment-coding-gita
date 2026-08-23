@@ -26,6 +26,8 @@ git push origin main
 5. Verify on GitHub that:
    - The file `practice.txt` is present
    - The commit message **“Added practice file”** is visible
+<img width="1216" height="1018" alt="image" src="https://github.com/user-attachments/assets/1526b5cd-2e9f-48b8-887d-f3e5c67dda54" />
+
 
 ---
 
@@ -43,6 +45,7 @@ Submit the following:
    - The commit message “Added practice file”
 
 **Note:** Make sure your repository is public (or accessible to the mentor) so the submission can be verified.
+![Uploading image.png…]()
 
 ---
 
