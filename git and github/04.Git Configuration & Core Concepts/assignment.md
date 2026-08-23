@@ -15,6 +15,7 @@
 
 **Submission:** Screenshot + written answers
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/619c4a55-6af6-427f-912f-d1795e5d1d58" />
+<img width="788" height="552" alt="image" src="https://github.com/user-attachments/assets/00938bca-e2f6-4f0b-8cda-80416ba23466" />
 
 ---
 
