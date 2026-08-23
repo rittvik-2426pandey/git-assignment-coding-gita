@@ -29,6 +29,7 @@
 
 **Submission:** Written answers + Screenshots
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/30f3f571-146f-4f2c-b26b-2bfd9f518657" />
+<img width="1291" height="358" alt="image" src="https://github.com/user-attachments/assets/24d485e0-6db9-4300-91cd-1754c7200dfe" />
 
 ---
 
@@ -57,6 +58,7 @@
 
 **Submission:** List of commands used + short answers
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/ec82ce68-30ff-4c85-8372-18634d5cc15a" />
+<img width="823" height="746" alt="image" src="https://github.com/user-attachments/assets/cd5d180d-d21b-47f4-a685-179fc99a4119" />
 
 ---
 
@@ -83,6 +85,7 @@ Perform the following in Git Bash and write the exact commands:
 
 **Submission:** Commands list + answers
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/9293cfdc-06e1-4c96-8722-008e031156f9" />
+<img width="700" height="842" alt="image" src="https://github.com/user-attachments/assets/3ebc02b9-9746-4ec3-ae33-6ff1b05b83bc" />
 
 ---
 
