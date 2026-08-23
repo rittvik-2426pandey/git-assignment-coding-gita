@@ -16,6 +16,8 @@
 3. Why should we write meaningful commit messages? Give 3 good and 3 bad examples.
 
 **Submission:** Written answers
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/623f2818-8e84-4ec4-ac74-263392a77db7" />
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/bb57260b-cd49-464c-9c48-9b2a976e6c04" />
 
 ---
 
@@ -37,6 +39,7 @@
 4. What does the `-u` flag do in `git push -u origin main`?
 
 **Submission:** Written answers
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/211db804-861f-4f6e-b08a-2126536a6893" />
 
 ---
 
@@ -64,6 +67,7 @@
 - Screenshot of `git log --oneline`  
 - Screenshot of successful push  
 - Screenshot of the file on GitHub
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/86defcd2-0d95-4602-9c82-f44a4bb7b645" />
 
 ---
 
