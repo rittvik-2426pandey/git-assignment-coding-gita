@@ -10,6 +10,7 @@
 5. Write one real-life example where Fork is useful.
 
 **Submission:** Written answers
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/e67538a2-1cb7-466c-9eac-1c6121b28d9e" />
 
 ---
 
@@ -27,6 +28,7 @@
 5. Does `git commit` upload code to GitHub? Explain why or why not.
 
 **Submission:** Written answers
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/a7b94f46-b23d-4f64-83fe-d81324ccdad0" />
 
 ---
 
@@ -86,6 +88,7 @@ Remote Repository (GitHub)
 3. What is the use of the `-u` flag in `git push -u origin main`?
 
 **Submission:** Written answers
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/2c1efbaf-66cf-4400-96b6-54e350565988" />
 
 ---
 
