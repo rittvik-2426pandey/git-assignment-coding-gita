@@ -14,6 +14,7 @@
    - Do we need to configure name and email for every new project? Why or why not?
 
 **Submission:** Screenshot + written answers
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/619c4a55-6af6-427f-912f-d1795e5d1d58" />
 
 ---
 
@@ -35,6 +36,7 @@
 3. What is the difference between **Local Repository** and **Remote Repository**?
 
 **Submission:** Written answers
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/7873dc06-52ab-457f-8353-862fd185b072" />
 
 ---
 
@@ -59,6 +61,7 @@ Fill in the missing stages and the commands used at each step.
    - Does `git commit` upload code to GitHub? Explain.
 
 **Submission:** Table + Flow + answers
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/62842f5a-8ba9-433f-b867-447439d47feb" />
 
 ---
 
@@ -87,6 +90,8 @@ Fill in the missing stages and the commands used at each step.
 3. Write 4 key points you learned in Day 4.
 
 **Submission:** Written answers
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/2798fa1b-53b3-4829-932e-91be7dc49a6a" />
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/9df36e62-6526-4945-b583-ab61063c5b7f" />
 
 ---
 
@@ -102,6 +107,8 @@ Fill in the missing stages and the commands used at each step.
    “Commit happens locally, Push happens to remote.”
 
 **Submission:** Written answers
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/a2490d8d-c908-4e45-8283-dc904f225484" />
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/03449231-f171-463b-a4c4-9f81c93572c5" />
 
 ---
 
