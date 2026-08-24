@@ -45,7 +45,8 @@ Submit the following:
    - The commit message “Added practice file”
 
 **Note:** Make sure your repository is public (or accessible to the mentor) so the submission can be verified.
-![Uploading image.png…]()
+<img width="1216" height="1018" alt="image" src="https://github.com/user-attachments/assets/6e9416c0-be54-4a29-9793-e110bdd6932b" />
+
 
 ---
 
