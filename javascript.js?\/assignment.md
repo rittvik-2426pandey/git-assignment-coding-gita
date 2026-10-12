@@ -1123,3 +1123,91 @@ Therefore, JavaScript grew from a browser scripting language into a **multipurpo
 
 // Question 4
 // "10" > "2" is false but 10 > 2 is true because when two strings are compared then each character of the first string is compared to the corresponding character of the second string and when both the operands are numbers then they are compared on their numerical value
+
+
+---------------------------------------------------------------------------============================================-===========================================================================
+
+PART E: QUESTIONS AND ANSWERS;;;;;;;;;;;;
+{/* question1 */}
+{/* let counter = 5;
+counter++;
+console.log(counter);  */}
+
+{/* question2 */}
+{/* let lives = 3;
+lives--;
+console.log(lives); */}
+
+{/* question3 */}
+{/* let score = 10;
+score++;
+console.log(score); */}
+
+{/* question4 */}
+{/* let items = 8;
+items--;
+console.log(items); */}
+
+{/* question5 */}
+{/* let count = 0;
+count++;
+count++;
+console.log(count); */}
+
+{/* question6 */}
+{/* let x=5;
+let y=x++;
+console.log("x =", x); 
+console.log("y =", y); */}
+{/* In postfix (x++), JavaScript gives the current value of x (which is 5) to y first, and then increases x by 1. That is why y is 5 and x becomes 6. */}
+
+{/* question7 */}
+{/* let a = 5;
+let b = ++a;
+console.log("a =", a); // Output: 6
+console.log("b =", b); */}
+{/* In prefix (++a), JavaScript increases a by 1 first (making it 6), and then gives that new value to b. That is why both a and b are 6. */}
+
+{/* question8 */}
+{/* let lives = 3;
+let previousLives = lives--;
+console.log("lives =", lives);               
+console.log("previousLives =", previousLives) */}
+
+{/* question9 */}
+{/* let attempts = 0;
+let currentAttempts = ++attempts;
+console.log("attempts =", attempts)
+console.log("currentAttempts =", currentAttempts) */}
+
+{/* question10:
+let points = 100;
+points++; 
+points--; 
+console.log(points); */}
+
+{/* PREDICTING OUTPUTS___________________________ */}
+
+{/* question11 */}
+{/* 12, 10, 12 */}
+
+
+{/* question12
+5, 10 */}
+
+
+{/* question13
+7, 12 */}
+
+
+{/* question14
+5, 13 */}
+
+
+{/* question15
+2 */}
+
+
+
+
+
