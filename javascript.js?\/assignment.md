@@ -1206,6 +1206,431 @@ console.log(points); */}
 
 {/* question15
 2 */}
+=================================================================================================================
+// F] Logical Operators
+
+// 1. Logical AND
+
+// Question 1
+// let storedUsername = "admin"
+// let storedPassword = 1234
+// let enteredUsername = "sdf"
+// let enteredPassword = 1234
+// let isUsernameValid = storedUsername == enteredUsername
+// let isPasswordValid = storedPassword == enteredPassword
+// let areBothValid = isPasswordValid && isUsernameValid
+// console.log("Are both valid?", areBothValid);
+
+// Question 2
+// let isLoggedIn = true
+// let hasPermission = true
+// let canAccess = isLoggedIn && hasPermission
+// console.log("Can the user access the page?", canAccess);
+
+// Question 3
+// let inStock = true
+// let price = 800
+// let isWithinBudget = price <= 1000
+// let canBuy = inStock && isWithinBudget
+// console.log("Can it be bought?", canBuy);
+
+// Question 4
+// let marks = 75
+// let attendance = 80
+// let hasPassed = (marks > 65) && (attendance > 70)
+// console.log("Has student passed?", hasPassed);
+
+// Question 5
+// let isWeekend = true
+// let isHoliday = false
+// let willPartyHappen = isWeekend && isHoliday
+// console.log("Will party happen?", willPartyHappen);
+
+// Question 6
+// let a = 0;
+// let b = 10;
+// let result = a && b;
+// console.log(result); // 0
+
+// Question 7
+// let x = 5;
+// let y = 10;
+// let result = (x > 3 && y) || 0;
+// console.log(result); // 10
+
+// Question 8
+// let p = "Hello";
+// let q = "";
+// let r = "World";
+// let result = p && q && r;
+// console.log(result); // ""
+
+// Question 9
+// let val = 5;
+// let condition = val && (val = 0);
+// console.log(condition); // 0
+// console.log(val); // 0
+
+// Question 10
+// let x = 10;
+// let y = 20;
+// let result = (x && y) && (x > y);
+// console.log(result); // false
+
+
+// 2. Logical OR
+
+// Question 1
+// let passwordCorrect = true
+// let otpValid = false
+// let loginAllowed = passwordCorrect || otpValid
+// console.log("Is login allowed?", loginAllowed);
+
+// Question 2
+// let isMember = false
+// let hasCoupon = true
+// let isDiscountApplied = isMember || hasCoupon
+// console.log("Is the discount applied?", isDiscountApplied);
+
+// Question 3
+// let age = 16
+// let height = 155
+// let entryAllowed = (age > 18) || (height > 150)
+// console.log("Is entry allowed?", entryAllowed);
+
+// Question 4
+// let emailGiven = true
+// let phoneGiven = false
+// let isFormValid = emailGiven || phoneGiven
+// console.log("Is form valid?", isFormValid);
+
+// Question 5
+// let score = 900
+// let timeBonus = true
+// let gameLevelOpens = (score > 1000) || timeBonus
+// console.log("Is game level open?", gameLevelOpens);
+
+// Question 6
+// let a = 0;
+// let b = false;
+// let c = "";
+// let d = null;
+// let e = 42;
+// let result = a || b || c || d || e;
+// console.log(result); // 42
+
+// Question 7
+// let x = "Hello" || 0;
+// let y = 0 || "Hi";
+// console.log(x, y); // Hello Hi
+
+// Question 8
+// let a = 10;
+// let b = 20;
+// let result = (a < 5) || (b > 15);
+// console.log(result); // true
+
+// Question 9
+// let val = 5;
+// let condition = val || (val = 0);
+// console.log(condition); // 5
+// console.log(val); // 5
+
+// Question 10
+// let x = "" || 0 || false || null || undefined || "OK";
+// console.log(x); // OK
+
+
+// 1. Logical NOT
+
+// Question 1
+// let isBanned = false
+// let canLogin =!isBanned
+// console.log("Can the user login?", canLogin);
+
+// Question 2
+// let isCompleted = false
+// let isPending = !isCompleted
+// console.log("Is the task still pending?", isPending);
+
+// Question 3
+// let isOn = true
+// let isOff = !isOn
+// console.log("Is the light off?", isOff);
+
+// Question 4
+// let isActive = false
+// let cannotAccess = !isActive
+// console.log("Can the user not access premium content?", cannotAccess);
+
+// Question 5
+// let isReadOnly = false
+// let canEdit = !isReadOnly
+// console.log("Can the file be edited?", canEdit);
+
+// Question 6
+// let a = 0;
+// let b = 1;
+// console.log(!a, !b); // true false
+
+// Question 7
+// let x = "Hello";
+// let y = "";
+// console.log(!x, !y); // false true
+
+// Question 8
+// let val = 5;
+// let result = !val;
+// console.log(result); // false
+
+// Question 9
+// let a = 10;
+// let b = 20;
+// let result = !(a && b);
+// console.log(result); // false
+
+// Question 10
+// let x = 0;
+// let y = 1;
+// let result = !(x || y);
+// console.log(result); // false
+
+
+
+// G] typeof Operator
+
+// Question 1
+// let name = "Rahul"
+// console.log(typeof name);
+
+// Question 2
+// let age = 25
+// console.log(typeof age);
+
+// Question 3
+// let isStudent = true
+// console.log(typeof isStudent);
+
+// Question 4
+// let city
+// console.log(typeof city);
+
+// Question 5
+// console.log(typeof null);
+
+// Question 6
+// console.log(typeof 42); // number
+// console.log(typeof "Hello"); // string
+// console.log(typeof true); // boolean
+// console.log(typeof undefined); // undefined
+
+// Question 7
+// console.log(typeof null); // object
+// console.log(typeof {}); // object
+// console.log(typeof []); // object
+
+// Question 8
+// console.log(typeof NaN); // number
+// console.log(typeof Infinity); // number
+// console.log(typeof function(){}); // function
+
+// Question 9
+// let price = 99.99
+// let message = "Welcome"
+// let isActive = false
+// console.log("The type of", price, "is", typeof price);
+// console.log("The type of", message, "is", typeof message);
+// console.log("The type of", isActive, "is", typeof isActive);
+
+// Question 10
+// let value = null;
+// console.log(typeof value); // object
+// console.log(typeof value === "object"); // true
+
+// Question 11
+// console.log(typeof typeof 100); // string
+// console.log(typeof typeof "Hi"); // string
+// console.log(typeof typeof true); // string
+
+// Question 12
+// let a = 10;
+// let b = "10";
+// console.log(typeof a === typeof b); // false
+// console.log(typeof a == typeof b); // false
+
+// Question 13
+// console.log(typeof null === "object"); // true
+// console.log(typeof [] === "object"); // true
+// console.log(typeof {} === "object"); // true
+
+// Question 14
+// let x;
+// console.log(typeof x); // undefined
+// x = null;
+// console.log(typeof x); // object
+// x = 0;
+// console.log(typeof x); // number
+
+// Question 15
+// console.log(typeof NaN === "number"); // true
+// console.log(typeof Infinity === "number"); // true
+// console.log(typeof (1 / 0)); // number
+
+
+
+// H] Type Coercion
+
+// Question 1
+// let string = "25"
+// string = Number(string)
+// string += 10
+// console.log(string);
+
+// Question 2
+// let number = 100
+// number = number(number)
+// number += " rupees"
+// console.log(number);
+
+// Question 3
+// let value = 0
+// value = Boolean(value)
+// console.log(value);
+
+// Question 4
+// let value = "Hello"
+// value = Boolean(value)
+// console.log(value);
+
+// Question 5
+// let string = "50"
+// string = +string
+// string *= 2
+// console.log(string);
+
+// Question 6
+// console.log("10" - 5); // 5
+// console.log("10" + 5); // 105
+// console.log("10" * 2); // 20
+// console.log("10" / 2); // 5
+
+// Question 7
+// console.log("5" - "2"); // 3
+// console.log("5" + "2"); // 52
+// console.log("5" * "2"); // 10
+// console.log("5" / "2"); // 2.5
+
+// Question 8
+// console.log(Number("123")); // 123
+// console.log(Number("123abc")); // NaN
+// console.log(Number(true)); // 1
+// console.log(Number(false)); // 0
+// console.log(Number(null)); // 0
+// console.log(Number(undefined)); // NaN
+
+// Question 9
+// console.log(Boolean(0)); // false
+// console.log(Boolean("")); // false
+// console.log(Boolean("0")); // true
+// console.log(Boolean([])); // true
+// console.log(Boolean({})); // true
+// console.log(Boolean(null)); // false
+
+// Question 10
+// console.log(String(100)); // "100"
+// console.log(String(true)); // "true"
+// console.log(String(null)); // "null"
+// console.log(String(undefined)); // "undefined"
+// console.log(100 + ""); // "100"
+
+// Question 11
+// console.log("5" + 3 + 2); // "532"
+// console.log(5 + 3 + "2"); // "82"
+// console.log("5" - 3 + 2); // 4
+// console.log(5 - "3" + "2"); // "22"
+
+// Question 12
+// console.log(true + true); // 2
+// console.log(true + false); // 1
+// console.log(true + "false"); // "truefalse"
+// console.log(false + "true"); // "falsetrue"
+
+// Question 13
+// console.log(null + 5); // 5
+// console.log(undefined + 5); // NaN
+// console.log(null + "5"); // "null5"
+// console.log(undefined + "5"); // "undefined5"
+
+// Question 14
+// console.log([] + []); // 
+// console.log([] + {}); // [object object]
+// console.log({} + []); //  [object object]
+// console.log({} + {}); //  [object object][object object]
+
+// Question 15
+// let a = "10";
+// let b = 5;
+// let c = a + b;
+// let d = a - b;
+// let e = +a + b;
+// console.log(c, typeof c); // "105" "string"
+// console.log(d, typeof d); // 5 "number"
+// console.log(e, typeof e); // 15 "number"
+
+// Question 16
+// console.log(!!"Hello"); // true
+// console.log(!!""); // false
+// console.log(!!0); // false
+// console.log(!!1); // true
+// console.log(!!null); // false
+// console.log(!!undefined); // false
+
+// Question 17
+// console.log(Number("")); // 0
+// console.log(Number(" ")); // 0
+// console.log(Number("0")); // 0
+// console.log(Number("  25  ")); // 25
+// console.log(Number("25px")); // NaN
+
+// Question 18
+// let val1 = "5";
+// let val2 = 2;
+// console.log(val1 + val2); // "52"
+// console.log(+val1 + val2); // 7
+// console.log(val1 - val2); // 3
+// console.log(val1 * val2); // 10
+// console.log(val1 / val2); // 2.5
+
+// Question 19
+// let count = 5;
+// console.log(typeof count++); // number
+// console.log(count); // 6
+// console.log(typeof ++count); // number
+// console.log(count); // 7
+
+// Question 20
+// let x = "10";
+// let y = ++x;
+// console.log(x, y, typeof x, typeof y); // 11 11 number number
+
+// Question 21
+// let a = "5";
+// let b = a++;
+// console.log(a, b, typeof a, typeof b); // 6 5 number number
+
+// Question 22
+// console.log(typeof (1 + "2")); // string
+// console.log(typeof (1 - "2")); // number
+// console.log(typeof (1 * "2")); // number
+// console.log(typeof (1 / "2")); // number
+
+// Question 23
+// let val = null;
+// console.log(typeof val); // object
+// console.log(val + 1); // 1
+// console.log(val - 1); // -1
+// console.log(val * 1); // 0
+// console.log(Boolean(val)); // false
 
 
 
