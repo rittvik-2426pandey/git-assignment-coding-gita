@@ -1819,6 +1819,1426 @@ if (value > 0) {
     }
 }
 
+C] if...else if...else Statement
+1. Print the season based on month
+let month = 4;
+if (month == 12 || month == 1 || month == 2) {
+    console.log("Winter");
+} else if (month >= 3 && month <= 5) {
+    console.log("Summer");
+} else if (month >= 6 && month <= 8) {
+    console.log("Monsoon");
+} else if (month >= 9 && month <= 11) {
+    console.log("Autumn");
+} else {
+    console.log("Invalid Month");
+}
 
+
+2. Simple tax calculator
+let income = 500000;
+let tax;
+if (income < 300000) {
+    tax = 0;
+} else if (income <= 700000) {
+    tax = income * 0.05;
+} else if (income <= 1000000) {
+    tax = income * 0.10;
+} else {
+    tax = income * 0.15;
+}
+
+console.log("Tax:", tax);
+
+
+3. Student score
+let marks = 85;
+if (marks >= 90) {
+    console.log("Outstanding");
+} else if (marks >= 70) {
+    console.log("Good");
+} else if (marks >= 40) {
+    console.log("Average");
+} else {
+    console.log("Needs Improvement");
+}
+
+
+4. Vehicle speed
+let speed = 60;
+if (speed < 40) {
+    console.log("Slow");
+} else if (speed <= 80) {
+    console.log("Normal");
+} else {
+    console.log("Fast");
+}
+
+
+5. Person's height
+let height = 165;
+if (height < 150) {
+    console.log("Short");
+} else if (height <= 170) {
+    console.log("Average");
+} else {
+    console.log("Tall");
+}
+
+
+6. Weekday or weekend
+let day = 6;
+if (day >= 1 && day <= 5) {
+    console.log("Weekday");
+} else if (day == 6 || day == 7) {
+    console.log("Weekend");
+} else {
+    console.log("Invalid Day");
+}
+
+
+7. Electricity bill
+The question gives a rate for each unit range, so this solution applies the rate to all units consumed.
+let units = 120;
+let bill;
+
+if (units <= 50) {
+    bill = units * 2;
+} else if (units <= 150) {
+    bill = units * 4;
+} else {
+    bill = units * 6;
+}
+
+console.log("Bill: ₹" + bill);
+
+
+8. Attendance percentage
+let attendance = 85;
+if (attendance >= 90) {
+    console.log("Excellent");
+} else if (attendance >= 75) {
+    console.log("Good");
+} else if (attendance >= 50) {
+    console.log("Satisfactory");
+} else {
+    console.log("Poor");
+}
+
+
+9. Find the highest of three marks
+let a = 75;
+let b = 90;
+let c = 80;
+if (a >= b && a >= c) {
+    console.log(a);
+} else if (b >= a && b >= c) {
+    console.log(b);
+} else {
+    console.log(c);
+}
+
+
+10. Positive/negative and even/odd
+let n = -7;
+if (n == 0) {
+    console.log("Zero");
+} else if (n > 0 && n % 2 == 0) {
+    console.log("Positive Even");
+} else if (n > 0) {
+    console.log("Positive Odd");
+} else if (n % 2 == 0) {
+    console.log("Negative Even");
+} else {
+    console.log("Negative Odd");
+}
+
+
+
+D] Nested if Statement
+1. Greater than 10 and divisible by 3
+let n = 15;
+if (n > 10) {
+    if (n % 3 == 0) {
+        console.log("Greater than 10 and divisible by 3");
+    } else {
+        console.log("Greater than 10 but not divisible by 3");
+    }
+} else {
+    console.log("Not greater than 10");
+}
+
+
+2. Voting eligibility
+let age = 20;
+let voterID = true;
+if (age >= 18) {
+    if (voterID == true) {
+        console.log("Can Vote");
+    } else {
+        console.log("Voter ID required");
+    }
+} else {
+    console.log("Not eligible");
+}
+
+
+3. Pass and distinction
+let marks = 85;
+if (marks >= 40) {
+    console.log("Passed");
+    if (marks >= 80) {
+        console.log("Passed with Distinction");
+    }
+} else {
+    console.log("Failed");
+}
+
+
+4. ATM system
+let pin = 1234;
+let balance = 5000;
+let amount = 2000;
+let correctPin = 1234;
+
+if (pin == correctPin) {
+    if (balance >= amount) {
+        console.log("Withdrawal Successful");
+    } else {
+        console.log("Insufficient Balance");
+    }
+} else {
+    console.log("Incorrect PIN");
+}
+
+
+5. Leap year
+let year = 2024;
+if (year % 4 == 0) {
+    if (year % 100 == 0) {
+        if (year % 400 == 0) {
+            console.log("Leap Year");
+        } else {
+            console.log("Not a Leap Year");
+        }
+    } else {
+        console.log("Leap Year");
+    }
+} else {
+    console.log("Not a Leap Year");
+}
+
+
+6. Email validation
+let email = "student@gmail.com";
+if (email.includes("@")) {
+    if (email.endsWith(".com")) {
+        if (email.length > 10) {
+            console.log("Valid Email");
+        } else {
+            console.log("Email is too short");
+        }
+    } else {
+        console.log("Email must end with .com");
+    }
+} else {
+    console.log("Email must contain @");
+}
+
+
+7. Online shopping discount
+let total = 2000;
+let premium = true;
+let discount = 0;
+if (total >= 1000) {
+    if (premium == true) {
+        discount = total * 0.20;
+    } else {
+        discount = total * 0.10;
+    }
+}
+
+let finalAmount = total - discount;
+console.log("Final Amount:", finalAmount);
+
+
+8. Positive, even and divisible by 4
+let n = 16;
+if (n > 0) {
+    if (n % 2 == 0) {
+        if (n % 4 == 0) {
+            console.log("Positive Even and Divisible by 4");
+        } else {
+            console.log("Positive Even");
+        }
+    } else {
+        console.log("Positive Odd");
+    }
+} else {
+    console.log("Not Positive");
+}
+
+
+9. Job eligibility
+let age = 25;
+let degree = true;
+let experience = 3;
+if (age >= 21 && age <= 30) {
+    if (degree == true) {
+        if (experience >= 2) {
+            console.log("Eligible for Interview");
+        } else {
+            console.log("Insufficient Experience");
+        }
+    } else {
+        console.log("Degree Required");
+    }
+} else {
+    console.log("Age Not Eligible");
+}
+
+
+10. Exam eligibility
+let present = true;
+let internal = 35;
+let external = 40;
+if (present == true) {
+    if (internal >= 30) {
+        if (external >= 35) {
+            console.log("Eligible for Final Exam");
+        } else {
+            console.log("External Marks Insufficient");
+        }
+    } else {
+        console.log("Internal Marks Insufficient");
+    }
+} else {
+    console.log("Student is Absent");
+}
+
+
+
+E] switch Statement
+1. Number of days in a month
+let month = 2;
+switch (month) {
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        console.log("31 days");
+        break;
+
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+        console.log("30 days");
+        break;
+
+    case 2:
+        console.log("28 days");
+        break;
+
+    default:
+        console.log("Invalid Month");
+}
+
+
+2. Vowel or consonant
+let ch = "a";
+switch (ch.toLowerCase()) {
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        console.log("Vowel");
+        break;
+
+    default:
+        console.log("Consonant");
+}
+
+
+3. Season using multiple cases
+let n = 3;
+switch (n) {
+    case 1:
+    case 2:
+        console.log("Winter");
+        break;
+
+    case 3:
+    case 4:
+        console.log("Summer");
+        break;
+
+    default:
+        console.log("Invalid Number");
+}
+
+
+4. Class based on marks using switch(true)
+let marks = 80;
+switch (true) {
+    case marks >= 75:
+        console.log("Distinction");
+        break;
+
+    case marks >= 60:
+        console.log("1st Class");
+        break;
+
+    case marks >= 50:
+        console.log("2nd Class");
+        break;
+
+    case marks >= 35:
+        console.log("3rd Class");
+        break;
+
+    default:
+        console.log("Failed");
+}
+
+
+5. Nested switch for admin and user
+let role = "admin";
+let action = "edit";
+switch (role) {
+    case "admin":
+        switch (action) {
+            case "create":
+                console.log("Create Item");
+                break;
+
+            case "edit":
+                console.log("Edit Item");
+                break;
+
+            case "delete":
+                console.log("Delete Item");
+                break;
+
+            default:
+                console.log("Invalid Action");
+        }
+        break;
+
+    case "user":
+        console.log("Limited Access");
+        break;
+
+    default:
+        console.log("Invalid Role");
+}
+
+
+6. Predict and correct the output
+Original output:
+Mango is yellow
+Banana is yellow
+Unknown fruit
+
+
+This happens because there is no break after the "mango" case, so JavaScript continues to the next cases. This is called fall-through.
+Correct code:
+let fruit = "mango";
+
+switch (fruit) {
+    case "apple":
+        console.log("Apple is red");
+        break;
+
+    case "mango":
+        console.log("Mango is yellow");
+        break;
+
+    case "banana":
+        console.log("Banana is yellow");
+        break;
+
+    default:
+        console.log("Unknown fruit");
+}
+7. Identify different values using switch
+let value = "0";
+switch (value) {
+    case 0:
+        console.log("Number Zero");
+        break;
+
+    case "0":
+        console.log("String Zero");
+        break;
+
+    case false:
+        console.log("Boolean False");
+        break;
+
+    case null:
+        console.log("Null Value");
+        break;
+
+    case undefined:
+        console.log("Undefined Value");
+        break;
+
+    default:
+        console.log("Other Value");
+}
+
+
+Explanation: JavaScript switch uses strict comparison (===). Therefore, 0, "0", and false are different values.
+8. Calculator using switch
+let a = 10;
+let b = 3;
+let op = "**";
+switch (op) {
+    case "+":
+        console.log(a + b);
+        break;
+
+    case "-":
+        console.log(a - b);
+        break;
+
+    case "*":
+        console.log(a * b);
+        break;
+    case "/":
+        if (b == 0) {
+            console.log("Cannot divide by zero");
+        } else {
+            console.log(a / b);
+        }
+        break;
+
+    case "%":
+        console.log(a % b);
+        break;
+
+    case "**":
+        console.log(a ** b);
+        break;
+
+    default:
+        console.log("Invalid Operator");
+}
+
+
+9. Beginning, middle or end of the month
+let day = 15;
+switch (true) {
+    case day >= 1 && day <= 10:
+        console.log("Beginning of the month");
+        break;
+    case day >= 11 && day <= 20:
+        console.log("Middle of the month");
+        break;
+    case day >= 21 && day <= 31:
+        console.log("End of the month");
+        break;
+    default:
+        console.log("Invalid Day");
+}
+
+
+10. Online food ordering system
+let category = "veg";
+let item = "pizza";
+let size = "full";
+let price = 0;
+
+switch (category) {
+    case "veg":
+        switch (item) {
+            case "pizza":
+                price = 200;
+                break;
+
+            case "burger":
+                price = 100;
+                break;
+
+            default:
+                console.log("Invalid Veg Item");
+        }
+        break;
+
+    case "nonveg":
+        switch (item) {
+            case "pizza":
+                price = 300;
+                break;
+
+            case "burger":
+                price = 150;
+                break;
+
+            default:
+                console.log("Invalid Nonveg Item");
+        }
+        break;
+
+    default:
+        console.log("Invalid Category");
+}
+
+if (price > 0) {
+    switch (size) {
+        case "half":
+            price = price / 2;
+            break;
+
+        case "full":
+            break;
+
+        default:
+            price = 0;
+            console.log("Invalid Size");
+    }
+    if (price > 0) {
+        console.log("Category:", category);
+        console.log("Item:", item);
+        console.log("Size:", size);
+        console.log("Price: ₹" + price);
+    }
+}
+
+
+
+F] Ternary Operator Questions
+The basic format is:
+condition ? valueIfTrue : valueIfFalse
+1. Divisible by 7
+let n = 21;
+
+let result = n % 7 == 0
+    ? "Divisible by 7"
+    : "Not Divisible by 7";
+
+console.log(result);
+
+
+2. Temperature
+let temperature = 32;
+let result = temperature >= 30 ? "Hot Day" : "Pleasant Day";
+
+console.log(result);
+
+
+3. Check empty string
+let str = "";
+let result = str == "" ? "Empty String" : "String has content";
+
+console.log(result);
+4. Age classification using nested ternary
+let age = 16;
+let result = age < 13
+    ? "Child"
+    : age <= 19
+    ? "Teenager"
+    : "Adult";
+console.log(result);
+
+
+5. Greatest of three numbers
+let a = 10, b = 25, c = 15;
+let result = a >= b && a >= c
+    ? a
+    : b >= c
+    ? b
+    : c;
+console.log(result);
+
+
+6. Student marks classification
+let marks = 65;
+let result = marks >= 75
+    ? "Distinction"
+    : marks >= 60
+    ? "First Class"
+    : marks >= 50
+    ? "Second Class"
+    : marks >= 35
+    ? "Pass"
+    : "Fail";
+console.log(result);
+
+
+7. Positive/negative and even/odd
+let n = -7;
+let result = n == 0
+    ? "Zero"
+    : n > 0
+    ? n % 2 == 0 ? "Positive Even" : "Positive Odd"
+    : n % 2 == 0 ? "Negative Even" : "Negative Odd";
+
+console.log(result);
+
+
+8. Leap year using nested ternary
+let year = 2024;
+let result = year % 4 == 0
+    ? year % 100 == 0
+        ? year % 400 == 0 ? "Leap Year" : "Not a Leap Year"
+        : "Leap Year"
+    : "Not a Leap Year";
+
+console.log(result);
+
+
+9. Role and action using one nested ternary
+let role = "admin";
+let action = "delete";
+let result = role == "admin"
+    ? action == "delete"
+        ? "Admin Delete"
+        : action == "edit"
+        ? "Admin Edit"
+        : "Admin Other"
+    : role == "user"
+        ? action == "view"
+            ? "User View"
+            : "User Restricted"
+        : "Invalid Role";
+
+console.log(result);
+
+
+10. Discount and final amount using one expression
+let cart = 3000;
+let result = {
+    discount: cart >= 5000 ? 20
+        : cart >= 2000 ? 10
+        : cart >= 1000 ? 5
+        : 0,
+    payable: cart - cart * (
+        cart >= 5000 ? 0.20
+        : cart >= 2000 ? 0.10
+        : cart >= 1000 ? 0.05
+        : 0
+    )
+};
+
+console.log(result);
+For a cart total of ₹3,000, the result is:
+discount: 10%
+payable: ₹2700C] if...else if...else Statement
+1. Print the season based on month
+let month = 4;
+if (month == 12 || month == 1 || month == 2) {
+    console.log("Winter");
+} else if (month >= 3 && month <= 5) {
+    console.log("Summer");
+} else if (month >= 6 && month <= 8) {
+    console.log("Monsoon");
+} else if (month >= 9 && month <= 11) {
+    console.log("Autumn");
+} else {
+    console.log("Invalid Month");
+}
+
+
+2. Simple tax calculator
+let income = 500000;
+let tax;
+if (income < 300000) {
+    tax = 0;
+} else if (income <= 700000) {
+    tax = income * 0.05;
+} else if (income <= 1000000) {
+    tax = income * 0.10;
+} else {
+    tax = income * 0.15;
+}
+
+console.log("Tax:", tax);
+
+
+3. Student score
+let marks = 85;
+if (marks >= 90) {
+    console.log("Outstanding");
+} else if (marks >= 70) {
+    console.log("Good");
+} else if (marks >= 40) {
+    console.log("Average");
+} else {
+    console.log("Needs Improvement");
+}
+
+
+4. Vehicle speed
+let speed = 60;
+if (speed < 40) {
+    console.log("Slow");
+} else if (speed <= 80) {
+    console.log("Normal");
+} else {
+    console.log("Fast");
+}
+
+
+5. Person's height
+let height = 165;
+if (height < 150) {
+    console.log("Short");
+} else if (height <= 170) {
+    console.log("Average");
+} else {
+    console.log("Tall");
+}
+
+
+6. Weekday or weekend
+let day = 6;
+if (day >= 1 && day <= 5) {
+    console.log("Weekday");
+} else if (day == 6 || day == 7) {
+    console.log("Weekend");
+} else {
+    console.log("Invalid Day");
+}
+
+
+7. Electricity bill
+The question gives a rate for each unit range, so this solution applies the rate to all units consumed.
+let units = 120;
+let bill;
+
+if (units <= 50) {
+    bill = units * 2;
+} else if (units <= 150) {
+    bill = units * 4;
+} else {
+    bill = units * 6;
+}
+
+console.log("Bill: ₹" + bill);
+
+
+8. Attendance percentage
+let attendance = 85;
+if (attendance >= 90) {
+    console.log("Excellent");
+} else if (attendance >= 75) {
+    console.log("Good");
+} else if (attendance >= 50) {
+    console.log("Satisfactory");
+} else {
+    console.log("Poor");
+}
+
+
+9. Find the highest of three marks
+let a = 75;
+let b = 90;
+let c = 80;
+if (a >= b && a >= c) {
+    console.log(a);
+} else if (b >= a && b >= c) {
+    console.log(b);
+} else {
+    console.log(c);
+}
+
+
+10. Positive/negative and even/odd
+let n = -7;
+if (n == 0) {
+    console.log("Zero");
+} else if (n > 0 && n % 2 == 0) {
+    console.log("Positive Even");
+} else if (n > 0) {
+    console.log("Positive Odd");
+} else if (n % 2 == 0) {
+    console.log("Negative Even");
+} else {
+    console.log("Negative Odd");
+}
+
+
+
+D] Nested if Statement
+1. Greater than 10 and divisible by 3
+let n = 15;
+if (n > 10) {
+    if (n % 3 == 0) {
+        console.log("Greater than 10 and divisible by 3");
+    } else {
+        console.log("Greater than 10 but not divisible by 3");
+    }
+} else {
+    console.log("Not greater than 10");
+}
+
+
+2. Voting eligibility
+let age = 20;
+let voterID = true;
+if (age >= 18) {
+    if (voterID == true) {
+        console.log("Can Vote");
+    } else {
+        console.log("Voter ID required");
+    }
+} else {
+    console.log("Not eligible");
+}
+
+
+3. Pass and distinction
+let marks = 85;
+if (marks >= 40) {
+    console.log("Passed");
+    if (marks >= 80) {
+        console.log("Passed with Distinction");
+    }
+} else {
+    console.log("Failed");
+}
+
+
+4. ATM system
+let pin = 1234;
+let balance = 5000;
+let amount = 2000;
+let correctPin = 1234;
+
+if (pin == correctPin) {
+    if (balance >= amount) {
+        console.log("Withdrawal Successful");
+    } else {
+        console.log("Insufficient Balance");
+    }
+} else {
+    console.log("Incorrect PIN");
+}
+
+
+5. Leap year
+let year = 2024;
+if (year % 4 == 0) {
+    if (year % 100 == 0) {
+        if (year % 400 == 0) {
+            console.log("Leap Year");
+        } else {
+            console.log("Not a Leap Year");
+        }
+    } else {
+        console.log("Leap Year");
+    }
+} else {
+    console.log("Not a Leap Year");
+}
+
+
+6. Email validation
+let email = "student@gmail.com";
+if (email.includes("@")) {
+    if (email.endsWith(".com")) {
+        if (email.length > 10) {
+            console.log("Valid Email");
+        } else {
+            console.log("Email is too short");
+        }
+    } else {
+        console.log("Email must end with .com");
+    }
+} else {
+    console.log("Email must contain @");
+}
+
+
+7. Online shopping discount
+let total = 2000;
+let premium = true;
+let discount = 0;
+if (total >= 1000) {
+    if (premium == true) {
+        discount = total * 0.20;
+    } else {
+        discount = total * 0.10;
+    }
+}
+
+let finalAmount = total - discount;
+console.log("Final Amount:", finalAmount);
+
+
+8. Positive, even and divisible by 4
+let n = 16;
+if (n > 0) {
+    if (n % 2 == 0) {
+        if (n % 4 == 0) {
+            console.log("Positive Even and Divisible by 4");
+        } else {
+            console.log("Positive Even");
+        }
+    } else {
+        console.log("Positive Odd");
+    }
+} else {
+    console.log("Not Positive");
+}
+
+
+9. Job eligibility
+let age = 25;
+let degree = true;
+let experience = 3;
+if (age >= 21 && age <= 30) {
+    if (degree == true) {
+        if (experience >= 2) {
+            console.log("Eligible for Interview");
+        } else {
+            console.log("Insufficient Experience");
+        }
+    } else {
+        console.log("Degree Required");
+    }
+} else {
+    console.log("Age Not Eligible");
+}
+
+
+10. Exam eligibility
+let present = true;
+let internal = 35;
+let external = 40;
+if (present == true) {
+    if (internal >= 30) {
+        if (external >= 35) {
+            console.log("Eligible for Final Exam");
+        } else {
+            console.log("External Marks Insufficient");
+        }
+    } else {
+        console.log("Internal Marks Insufficient");
+    }
+} else {
+    console.log("Student is Absent");
+}
+
+
+
+E] switch Statement
+1. Number of days in a month
+let month = 2;
+switch (month) {
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        console.log("31 days");
+        break;
+
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+        console.log("30 days");
+        break;
+
+    case 2:
+        console.log("28 days");
+        break;
+
+    default:
+        console.log("Invalid Month");
+}
+
+
+2. Vowel or consonant
+let ch = "a";
+switch (ch.toLowerCase()) {
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        console.log("Vowel");
+        break;
+
+    default:
+        console.log("Consonant");
+}
+
+
+3. Season using multiple cases
+let n = 3;
+switch (n) {
+    case 1:
+    case 2:
+        console.log("Winter");
+        break;
+
+    case 3:
+    case 4:
+        console.log("Summer");
+        break;
+
+    default:
+        console.log("Invalid Number");
+}
+
+
+4. Class based on marks using switch(true)
+let marks = 80;
+switch (true) {
+    case marks >= 75:
+        console.log("Distinction");
+        break;
+
+    case marks >= 60:
+        console.log("1st Class");
+        break;
+
+    case marks >= 50:
+        console.log("2nd Class");
+        break;
+
+    case marks >= 35:
+        console.log("3rd Class");
+        break;
+
+    default:
+        console.log("Failed");
+}
+
+
+5. Nested switch for admin and user
+let role = "admin";
+let action = "edit";
+switch (role) {
+    case "admin":
+        switch (action) {
+            case "create":
+                console.log("Create Item");
+                break;
+
+            case "edit":
+                console.log("Edit Item");
+                break;
+
+            case "delete":
+                console.log("Delete Item");
+                break;
+
+            default:
+                console.log("Invalid Action");
+        }
+        break;
+
+    case "user":
+        console.log("Limited Access");
+        break;
+
+    default:
+        console.log("Invalid Role");
+}
+
+
+6. Predict and correct the output
+Original output:
+Mango is yellow
+Banana is yellow
+Unknown fruit
+
+
+This happens because there is no break after the "mango" case, so JavaScript continues to the next cases. This is called fall-through.
+Correct code:
+let fruit = "mango";
+
+switch (fruit) {
+    case "apple":
+        console.log("Apple is red");
+        break;
+
+    case "mango":
+        console.log("Mango is yellow");
+        break;
+
+    case "banana":
+        console.log("Banana is yellow");
+        break;
+
+    default:
+        console.log("Unknown fruit");
+}
+7. Identify different values using switch
+let value = "0";
+switch (value) {
+    case 0:
+        console.log("Number Zero");
+        break;
+
+    case "0":
+        console.log("String Zero");
+        break;
+
+    case false:
+        console.log("Boolean False");
+        break;
+
+    case null:
+        console.log("Null Value");
+        break;
+
+    case undefined:
+        console.log("Undefined Value");
+        break;
+
+    default:
+        console.log("Other Value");
+}
+
+
+Explanation: JavaScript switch uses strict comparison (===). Therefore, 0, "0", and false are different values.
+8. Calculator using switch
+let a = 10;
+let b = 3;
+let op = "**";
+switch (op) {
+    case "+":
+        console.log(a + b);
+        break;
+
+    case "-":
+        console.log(a - b);
+        break;
+
+    case "*":
+        console.log(a * b);
+        break;
+    case "/":
+        if (b == 0) {
+            console.log("Cannot divide by zero");
+        } else {
+            console.log(a / b);
+        }
+        break;
+
+    case "%":
+        console.log(a % b);
+        break;
+
+    case "**":
+        console.log(a ** b);
+        break;
+
+    default:
+        console.log("Invalid Operator");
+}
+
+
+9. Beginning, middle or end of the month
+let day = 15;
+switch (true) {
+    case day >= 1 && day <= 10:
+        console.log("Beginning of the month");
+        break;
+    case day >= 11 && day <= 20:
+        console.log("Middle of the month");
+        break;
+    case day >= 21 && day <= 31:
+        console.log("End of the month");
+        break;
+    default:
+        console.log("Invalid Day");
+}
+
+
+10. Online food ordering system
+let category = "veg";
+let item = "pizza";
+let size = "full";
+let price = 0;
+
+switch (category) {
+    case "veg":
+        switch (item) {
+            case "pizza":
+                price = 200;
+                break;
+
+            case "burger":
+                price = 100;
+                break;
+
+            default:
+                console.log("Invalid Veg Item");
+        }
+        break;
+
+    case "nonveg":
+        switch (item) {
+            case "pizza":
+                price = 300;
+                break;
+
+            case "burger":
+                price = 150;
+                break;
+
+            default:
+                console.log("Invalid Nonveg Item");
+        }
+        break;
+
+    default:
+        console.log("Invalid Category");
+}
+
+if (price > 0) {
+    switch (size) {
+        case "half":
+            price = price / 2;
+            break;
+
+        case "full":
+            break;
+
+        default:
+            price = 0;
+            console.log("Invalid Size");
+    }
+    if (price > 0) {
+        console.log("Category:", category);
+        console.log("Item:", item);
+        console.log("Size:", size);
+        console.log("Price: ₹" + price);
+    }
+}
+
+
+
+F] Ternary Operator Questions
+The basic format is:
+condition ? valueIfTrue : valueIfFalse
+1. Divisible by 7
+let n = 21;
+
+let result = n % 7 == 0
+    ? "Divisible by 7"
+    : "Not Divisible by 7";
+
+console.log(result);
+
+
+2. Temperature
+let temperature = 32;
+let result = temperature >= 30 ? "Hot Day" : "Pleasant Day";
+
+console.log(result);
+
+
+3. Check empty string
+let str = "";
+let result = str == "" ? "Empty String" : "String has content";
+
+console.log(result);
+4. Age classification using nested ternary
+let age = 16;
+let result = age < 13
+    ? "Child"
+    : age <= 19
+    ? "Teenager"
+    : "Adult";
+console.log(result);
+
+
+5. Greatest of three numbers
+let a = 10, b = 25, c = 15;
+let result = a >= b && a >= c
+    ? a
+    : b >= c
+    ? b
+    : c;
+console.log(result);
+
+
+6. Student marks classification
+let marks = 65;
+let result = marks >= 75
+    ? "Distinction"
+    : marks >= 60
+    ? "First Class"
+    : marks >= 50
+    ? "Second Class"
+    : marks >= 35
+    ? "Pass"
+    : "Fail";
+console.log(result);
+
+
+7. Positive/negative and even/odd
+let n = -7;
+let result = n == 0
+    ? "Zero"
+    : n > 0
+    ? n % 2 == 0 ? "Positive Even" : "Positive Odd"
+    : n % 2 == 0 ? "Negative Even" : "Negative Odd";
+
+console.log(result);
+
+
+8. Leap year using nested ternary
+let year = 2024;
+let result = year % 4 == 0
+    ? year % 100 == 0
+        ? year % 400 == 0 ? "Leap Year" : "Not a Leap Year"
+        : "Leap Year"
+    : "Not a Leap Year";
+
+console.log(result);
+
+
+9. Role and action using one nested ternary
+let role = "admin";
+let action = "delete";
+let result = role == "admin"
+    ? action == "delete"
+        ? "Admin Delete"
+        : action == "edit"
+        ? "Admin Edit"
+        : "Admin Other"
+    : role == "user"
+        ? action == "view"
+            ? "User View"
+            : "User Restricted"
+        : "Invalid Role";
+
+console.log(result);
+
+
+10. Discount and final amount using one expression
+let cart = 3000;
+let result = {
+    discount: cart >= 5000 ? 20
+        : cart >= 2000 ? 10
+        : cart >= 1000 ? 5
+        : 0,
+    payable: cart - cart * (
+        cart >= 5000 ? 0.20
+        : cart >= 2000 ? 0.10
+        : cart >= 1000 ? 0.05
+        : 0
+    )
+};
+
+console.log(result);
+For a cart total of ₹3,000, the result is:
+discount: 10%
+payable: ₹2700
 
 
