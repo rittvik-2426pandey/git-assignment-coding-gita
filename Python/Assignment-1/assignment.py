@@ -4308,3 +4308,65 @@
 
 # Q10
 # 16
+
+# Q11
+# 2 1 0
+
+# Q12
+# 58 5 0
+
+#Q13
+# 2 4 6
+
+# Q14
+# Odd Even Odd Even Odd
+
+#Q15
+# 1 2 4 8
+
+# Q16
+# 5 3 1 Stop: -1
+
+# Q17
+# A
+# AA
+# AAA
+# AAAA
+
+# Q18
+# PY
+# PYT
+# PYTT
+# PYTTT
+
+# Q19
+# 3
+
+# Q20
+# 1 0 -1 -2 -3 -4 ...
+
+# Q21
+# n = int(input("Enter N: "))
+# for i in range(1, n + 1):
+#     print(i)
+
+# Q22.
+# n = int(input("Enter N: "))
+# for i in range(n, 0, -1):
+#     print(i)
+
+# Q23.
+# n = int(input("Enter N: "))
+# for i in range(2, n + 1, 2):
+#     print(i)
+
+# Q24
+# n = int(input("Enter N: "))
+# for i in range(1, n + 1, 2):
+#     print(i)
+
+# Q25
+# k = int(input("Enter K: "))
+# n = int(input("Enter N: "))
+# for i in range(k, n + 1, k):
+#     print(i)
