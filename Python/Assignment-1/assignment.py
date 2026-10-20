@@ -4370,3 +4370,191 @@
 # n = int(input("Enter N: "))
 # for i in range(k, n + 1, k):
 #     print(i)
+
+# Q21
+n = int(input("Enter N: "))
+for i in range(1, n + 1):
+    print(i)
+
+# Q22.
+n = int(input("Enter N: "))
+for i in range(n, 0, -1):
+    print(i)
+
+# Q23.
+n = int(input("Enter N: "))
+for i in range(2, n + 1, 2):
+    print(i)
+
+# Q24
+n = int(input("Enter N: "))
+for i in range(1, n + 1, 2):
+    print(i)
+
+# Q25
+# k = int(input("Enter K: "))
+# n = int(input("Enter N: "))
+# for i in range(k, n + 1, k):
+#     print(i)
+
+# Q34
+# num=5
+# fact=1
+# i=1
+# while i<=num:
+#     fact=fact*i
+#     i+=1
+#     print(fact)
+
+# start=3
+# end=7
+# while start>7:
+#     sum=sum+start
+#     print(sum)
+
+# Q26
+# n = int(input("Enter a number: "))
+# i = 1
+# while i <= 10:
+#     print(n, "x", i, "=", n * i)
+#     i += 1
+
+# Q27
+# start=int(input("Enter START: "))
+# step=int(input("Enter STEP: "))
+# i=1
+# while i<=5:
+#     print(start)
+#     start += step
+#     i+=1
+
+# Q28
+# n = int(input("Enter N: "))
+# i = 1
+# total = 0
+# while i <= n:
+#     total += i
+#     i += 1
+# print(total)
+
+# Q29
+# n = int(input("Enter N: "))
+# i = 2
+# total = 0
+# while i <= n:
+#     total += i
+#     i += 2
+# print(total)
+
+# Q30
+# n = int(input("Enter N: "))
+# i = 1
+# total = 0
+# while i <= n:
+#     total += i
+#     i += 2
+# print(total)
+
+# Q31
+# price = int(input("Enter price: "))
+# quantity = int(input("Enter quantity: "))
+# i = 1
+# total = 0
+# while i <= quantity:
+#     total += price
+#     i += 1
+# print(total)
+
+# Q32
+# daily_saving = int(input("Enter daily saving: "))
+# days = int(input("Enter days: "))
+# i = 1
+# total = 0
+# while i <= days:
+#     total += daily_saving
+#     i += 1
+# print(total)
+
+# Q33
+# base = int(input("Enter BASE: "))
+# power = int(input("Enter POWER: "))
+# i = 1
+# result = 1
+# while i <= power:
+#     result *= base
+#     i += 1
+# print(result)
+
+# Q34
+# n = int(input("Enter N: "))
+# i = 1
+# fact = 1
+# while i <= n:
+#     fact *= i
+#     i += 1
+# print(fact)
+
+# Q35
+# start = int(input("Enter START: "))
+# end = int(input("Enter END: "))
+# total = 0
+# while start <= end:
+#     total += start
+#     start += 1
+# print(total)
+
+# Q36
+# n = int(input("Enter N: "))
+# while n >= 2:
+#     print(n)
+#     n -= 2
+
+# Q37
+# n = int(input("Enter N: "))
+# while n > 0:
+#     n = n // 2
+#     print(n)
+
+# Q38
+# n = int(input("Enter N: "))
+# steps = 0
+# while n > 0:
+#     n -= 3
+#     steps += 1
+# print(steps)
+
+# Q39
+# saved = int(input("Enter SAVED: "))
+# daily_amount = int(input("Enter DAILY_AMOUNT: "))
+# target = int(input("Enter TARGET: "))
+# days = 0
+# while saved < target:
+#     saved += daily_amount
+#     days += 1
+# print(days)
+
+# Q40
+# start = int(input("Enter START: "))
+# step = int(input("Enter STEP: "))
+# while start >= 0:
+#     print(start)
+#     start -= step
+
+# Q41
+# n = int(input("Enter N: "))
+# count = 0
+# if n == 0:
+#     count = 1
+# while n > 0:
+#     count += 1
+#     n = n // 10
+# print(count)
+
+# Q42
+# n = int(input("Enter N: "))
+# total = 0
+# while n > 0:
+#     digit = n % 10
+#     total += digit
+#     n = n // 10
+# print(total)
