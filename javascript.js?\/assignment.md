@@ -832,7 +832,7 @@ Therefore, JavaScript grew from a browser scripting language into a **multipurpo
 // let num = 4;
 // num **= 2;
 // console.log(num);
---------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------0-------------------------------------------------------
 // D] Relational Operator
 
 // 1. Greater Than
@@ -3240,5 +3240,56 @@ console.log(result);
 For a cart total of ₹3,000, the result is:
 discount: 10%
 payable: ₹2700
-
+==========================================================================================================================================================================================
+LOOPING STATEMENTS::----
+// question1
+// for (let i=1; i<=15; i++){
+//     console.log(i);
+// }
+// // question2
+// for (let i=2; i<=40; i+=2){
+//     console.log(i);
+// }
+// // question3
+// for (let i=1; i<=35; i+2){
+//     console.log(i);
+// }
+// // question4
+// let total=0;
+// for (let day=1; day<=10; day++){
+//     total=total + (day*10);
+// }
+// console.log("Total savings after 10 days: ₹" + total);
+// // question5
+// for (let i = 1; i <= 10; i++){
+//     console.log("12x" + i + "=" + (12*i));
+// }
+// // question6
+// let total=0;
+// for (let day = 1; day <= 7; day++){
+//     total = total+3;
+//     console.log("Day" + day + ":" + total + "glasses");
+// }
+// // question7
+// for (let i=1; i<=10; i++){
+//     console.log(i + "chocolates=₹" + (i * 15));
+// }
+// // question8
+// let sum = 0;
+// for (let i=2; i<=30; i+=2){
+//     sum = sum+i;
+// }
+// console.log("Sum of even numbers:" + sum);
+// // question9
+// for (let day=1; day<=7; day++){
+//     console.log("Day" + day + ":" + (day * 5) + " push-ups");
+// }
+// // question10
+// for (let i=1; i <=8; i++){
+//     if (i==1){
+//         console.log(i + " person: ₹" + (i * 150));
+//     }else{
+//         console.log(i + " people: ₹" + (i * 150));
+//     }
+// }
 
